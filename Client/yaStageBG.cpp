@@ -13,7 +13,7 @@ namespace ya
 	}
 	void Stage_BG::Initialize()
 	{
-		mImage = Resources::Load<Image>(L"Stage_BG", L"..\\Resources\\stageSelect.bmp");
+		mImage = Resources::Load<Image>(L"Stage_BG", L"..\\Resources\\loding_on.bmp");
 
 		GameObject::Initialize();
 	}
